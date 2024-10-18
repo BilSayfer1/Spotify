@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify UI Clone</title>
+    <link rel="stylesheet" href="/diplomka/public/search/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <nav class="sidebar">
+            <div class="logo">
+                <div class="img">
+                    <img src="/diplomka/src/logos_left/logo_whie_spotifay.png" alt="Spotify Logo">
+                </div>
+                <div class="text_for_img_in_spotify">
+                    Al Safirfy<sup class="small-r">®</sup>
+                </div>
+            </div>
+
+            <ul>
+                <li id="home_main"><img id="home" src="/diplomka/src/logos_left/home.png" alt="Home"> Home</li>
+                <li id="search_main"><img id="search" src="/diplomka/src/logos_left/search.png" alt="Search"> Search
+                </li>
+                <li id="library_main"><img id="library" src="/diplomka/src/logos_left/library.png" alt="Library"> Your
+                    Library</li>
+            </ul>
+
+            <ul id="sredniy_delta">
+                <li><img id="add" src="/diplomka/src/logos_left/add.png" alt="Create Playlist"> Create Playlist</li>
+                <li><img id="liked_songs" src="/diplomka/src/logos_left/liked_songs.jpg" alt="Liked Songs"> Liked Songs
+                </li>
+                <li><img id="your_episode" src="/diplomka/src/logos_left/episode.png" alt="Your Episodes"> Your Episodes
+                </li>
+            </ul>
+
+            <div class="fav">
+                <h3>FAV</h3>
+                <ul>
+                    <li>Daily Mix 1</li>
+                    <li>Discover Weekly</li>
+                    <li>Malayalam</li>
+                    <li>Dance/Electronic Mix</li>
+                    <li>EDM/Popular</li>
+                </ul>
+            </div>
+
+            <div class="install_app">
+                <div class="img_in_install_app">
+                    <img src="/diplomka/src/logos_left/install.png" alt="Install App">
+                </div>
+                <div class="text_in_install_app">
+                    <h4>Install App</h4>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <div class="glav_verxniy">
+                <div class="verxniy">
+                    <button id="left">
+                        < </button>
+                            <button id="right"> > </button>
+                </div>
+
+                <div class="search-container">
+                    <input type="text" placeholder="Artists, songs, or podcasts" class="search-input">
+                    <button class="search-button">
+                        <img src="/diplomka/src/body_img/search.png" alt="Search Icon">
+                    </button>
+                </div>
+
+                <div class="account" id="account">
+                    <div class="account_img">
+                        <img id="avatar" src="/diplomka/src/logos_left/IMG_E2809.JPG" alt="avatar">
+                    </div>
+                    <div class="account_nick_name">
+                        <h5>Shaytan Mashina</h5>
+                    </div>
+                    <img id="strelka" src="/diplomka/src/logos_left/strelka.png" alt="dropdown">
+                </div>
+                
+
+                <div class="animacionniy_account" id="dropdown-menu">
+                    <div class="account_two_cont">
+                        <div class="account_two">
+                            <div class="account_img">
+                                <img id="avatar_img" src="/diplomka/src/logos_left/IMG_E2809.JPG" alt="avatar">
+                            </div>
+                            <div class="account_nick_name">
+                                <h5>Shaytan</h5>
+                            </div>
+                            <img id="strelka" src="/diplomka/src/body_img/strelka_to_top.png" alt="droptop">
+                        </div>
+                    </div>
+                                    
+                    <div class="razdel_for_account">
+                        <h4 class="h_four_acc">Account</h4>
+                        <h4 class="h_four_profile">Profile</h4>
+                        <h4 class="h_four_log_out">Log out</h4>
+                    </div>
+                </div>
+               
+            </div>
+            <header>
+                <h1>Your top genres</h1>
+                <div class="slider">
+                    <button id="prev-genre" class="slider-btn">◀</button>
+                    <div class="slider-container">
+                        <div class="playlist-grid">
+                            <div class="playlist">Playlist 1</div>
+                            <div class="playlist">Playlist 2</div>
+                            <div class="playlist">Playlist 3</div>
+                            <div class="playlist">Playlist 3</div>
+                            <div class="playlist">Playlist 3</div>
+                            <div class="playlist">Playlist 3</div>
+                            <div class="playlist">Playlist 3</div>
+                            <div class="playlist">Playlist 3</div>
+                            <div class="playlist">Playlist 3</div>
+                            <div class="playlist">Playlist 3</div>
+                            <div class="playlist">Playlist 3</div>
+                            <div class="playlist">Playlist 3</div>
+                            <div class="playlist">Playlist 3</div>
+                        </div>
+                    </div>
+
+                    <button id="next-genre" class="slider-btn">▶</button>
+                </div>
+            </header>
+
+            <section class="shows">
+                <h2>Browse all</h2>
+                <div class="show-grid">
+                    <div class="show">Shaytan Mashina 1</div>
+                    <div class="show">Shaytan Mashina 1</div>
+                    <div class="show">Shaytan Mashina 1</div>
+                    <div class="show">Shaytan Mashina 1</div>
+                    <div class="show">Shaytan Mashina 1</div>
+                    <div class="show">Shaytan Mashina 1</div>
+                    <div class="show">Shaytan Mashina 1</div>
+                    <div class="show">Shaytan Mashina 1</div>
+                    <div class="show">Shaytan Mashina 1</div>
+                    <div class="show">Shaytan Mashina 1</div>
+                    <div class="show">Shaytan Mashina 2</div>
+                    <div class="show">Shaytan Mashina 3</div>
+
+                    <!-- <div class="animacionniy_account">
+                        <div class="account_two_cont">
+                            <div class="account_two">
+                                <div class="account_img">
+                                    <img id="avatar_img" src="/diplomka/src/logos_left/IMG_E2809.JPG" alt="avatar">
+                                </div>
+                                <div class="account_nick_name">
+                                    <h5>Shaytan</h5>
+                                </div>
+                                <img id="strelka" src="/diplomka/src/body_img/strelka_to_top.png" alt="droptop">
+                            </div>
+                        </div>
+                        <div class="razdel_for_account">
+                            <h4 class="h_four_acc">Account</h4>
+                            <h4 class="h_four_profile">Profile</h4>
+                            <h4 class="h_four_log_out">Log out</h4>
+                        </div>
+
+                    </div> -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div class="spotify-player">
+        <div class="song-info">
+            <img src="album-cover.jpg" alt="Album Cover" class="album-cover">
+            <div class="song-details">
+                <p class="song-name">Dreaming On</p>
+                <p class="artist-name">NEFFEX</p>
+            </div>
+            <button class="heart-btn">&#10084;</button>
+        </div>
+
+        <div class="controls">
+            <div class="control-icons">
+                <button>&#8635;</button>
+                <button>&#9664;&#10073;</button>
+                <button class="play-pause-btn">&#10074;&#10074;</button>
+                <button>&#10073;&#9654;</button>
+                <button>&#8631;</button>
+            </div>
+            <div class="progress-bar-container">
+                <span class="start-time">2:11</span>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+                <span class="end-time">2:42</span>
+            </div>
+        </div>
+
+        <div class="device-info">
+            <p>Listening on ASUS-ROG-G531GT</p>
+        </div>
+    </div>
+
+    <div class="green_line">
+
+    </div>
+
+
+
+    <script src="/diplomka/public/search/index.js"></script>
+</body>
+
+</html>
